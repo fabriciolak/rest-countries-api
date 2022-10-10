@@ -1,0 +1,24 @@
+.list-country {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+
+  display: grid;
+  justify-content: center;
+  flex: 1;
+  gap: 1.6rem 2rem;
+
+  padding: 1.6rem;
+}
+
+@media (min-width: 600px) {
+  .list-country {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .list-country {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
