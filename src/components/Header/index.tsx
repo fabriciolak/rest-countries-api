@@ -1,9 +1,10 @@
+import { Link } from 'react-router-dom'
 import { Container } from './styles'
 
 export function Header() {
   return (
     <Container>
-      <h2>Where in the world?</h2>
+      <Link to="/" className="logo">Where in the world?</Link>
       <div>
         <button>Mode</button> 
       </div>

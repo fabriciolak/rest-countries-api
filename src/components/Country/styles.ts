@@ -1,6 +1,8 @@
+import { Link } from 'react-router-dom'
+
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled(Link)`
   width: 100%;
   max-width: 320px;
 
@@ -8,6 +10,9 @@ export const Container = styled.div`
 
   border: 1px solid #DDDDDD;
   border-radius: 6px;
+
+  text-decoration: none;
+  color: #000000;
 
   .image {
     width: 100%;
@@ -26,12 +31,12 @@ export const Container = styled.div`
 
   }
 
-  
-
   h2 {
     font-size: 2.4rem;
-    line-height: 5.5rem;
+    margin-bottom: 2.5rem;
   }
+  
+
 
   ul {
     list-style: none;

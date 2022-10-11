@@ -9,6 +9,31 @@
   gap: 1.6rem 2rem;
 }
 
+.search {
+  width: 100%;
+  max-width: 1280px;
+  height: 48px;
+
+  margin: 0 auto;
+  margin-bottom: 7.5rem;
+  padding: 4rem 1.6rem;
+
+  border: 1px solid #DDDDDD;
+  border-radius: 6px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.go-back {
+  display: block;
+  font-size: 1.6rem;
+  cursor: pointer;
+
+  margin: 1.6rem 0;
+}
+
 @media (min-width: 600px) {
   .list-country {
     grid-template-columns: repeat(3, 1fr);

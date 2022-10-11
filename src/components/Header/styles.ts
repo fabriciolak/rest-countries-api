@@ -11,6 +11,14 @@ export const Container = styled.header`
   padding: 2.4rem;
   margin-bottom: 7.5rem;
 
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+
+    color: #000;
+  }
+
   button {
     font-size: 1.4rem;
     font-weight: 600;
